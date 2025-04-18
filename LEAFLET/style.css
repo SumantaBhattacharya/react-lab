@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'PaulKlein';
+    src: url('./Fonts/paulkleintwo.ttf') format('truetype'); /* .ttf stands for TrueType Font. */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This will make all elements use border-box, which is generally a good default for consistent layout behavior. */
+    /* background-color: #DDDDDD; */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'PaulKlein', sans-serif;
+    padding: 0.2vw;
+}
+
+.header{
+    height: 10vh; 
+    /* background-color: #DDDDDD;  */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 2vw; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+::selection{
+    background-color: black; /* Highlight color for selected text */
+    color: #fff; /* Text color for selected text */
+}
+
+#map{
+    height: 100vh;
+    width: 100%;
+}
