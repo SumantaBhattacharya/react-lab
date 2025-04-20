@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/10733/10733278.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Locator</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="left-store-list">
+            <div class="header">
+                <h1 class="heading">Our Outlets</h1>
+            </div>
+            <div class="store-lists" id="store-list">
+                <!-- Store list will be populated here -->
+                 <ul class="list">
+                    <!-- <li>Outlet1</li>
+                    <li>Outlet2</li>
+                    <li>Outlet3</li>
+                    <li>Outlet4</li>
+                    <li>Outlet5</li> -->
+                 </ul>
+            </div>
+        </div>
+        <div class="right" id="map"></div>
+    </main>
+
+</body>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="./stores.js"></script>
+<!-- <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script> -->
+<script src="app.js"></script>
+
+</html>
+
+<!-- 
+https://png.pngtree.com/png-clipart/20230111/original/pngtree-pizza-location-logo-png-image_8902732.png 
+https://geojson.org/
+https://www.fontzillion.com/fonts/nal/cauterise
+-->
