@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'CrassRoots';
+  src: url('/fonts/!crass roots ofl.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased; /* For smoother fonts in WebKit browsers */
+    box-sizing: border-box; /* This will make all elements use border-box, which is generally a good default for consistent layout behavior. */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#map{
+    height: 100vh;
+    width: 100%;
+}
