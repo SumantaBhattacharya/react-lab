@@ -85,7 +85,8 @@ export class AuthService {// Exporting the AuthService instance ensures that the
             // i. deleteSession logout the user from that browser then it kaes 'current' as as parameter ii. deleteSessions logout the user from every browser the used has logged in 
             await this.account.deleteSessions(); // 'current' is the default session ID for the current user session
         }catch(error){
-            throw error;
+            console.log("Appwrite service :: logout :: error:", error.message);
+            // throw error;
         }
     }
 
@@ -120,7 +121,7 @@ export class AuthService {// Exporting the AuthService instance ensures that the
 
         }catch(error){
             console.log("Appwrite service :: updateAccountDeatails :: error:", error.message);
-            throw error;
+            // throw error;
         }
     }
 
