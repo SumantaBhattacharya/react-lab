@@ -24,6 +24,6 @@ dist-ssr
 *.sw?
 
 Emplyoee-Management-System.txt
-react.svg
-vite.svg
+# react.svg
+# vite.svg
 *.txt
