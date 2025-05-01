@@ -65,3 +65,14 @@ If a marker for the `id` exists, update its position. Otherwise, create a new ma
 > *Redux Thunk and Redux Saga These are both middleware libraries for handling side effects (like async API calls) in Redux.*
 
 >  *Redux Toolkit (RTK) brings a lot more abstraction*
+
+> In JavaScript, you cannot use an assignment (=) directly in an export default statement unless the variable (service) is already declared earlier in the file.
+
+> The children prop in React is a special prop that represents the content nested inside a component. 
+
+>The forwardRef function is a higher-order component that allows you to pass a ref from a parent component to a child component. This is useful when you want to access a DOM element or a class component instance directly from the parent component.
+
+
+> The useId hook is a React hook that generates a unique ID for each instance of the component. This is useful for accessibility purposes, such as associating a label with an input element.
+
+> How do you perform side effects after a component renders in React? By using the useEffect hook, useLayoutEffect hook and componentDidUpdate. 
