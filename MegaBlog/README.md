@@ -43,16 +43,14 @@ npm i react-hook-form
   - [*appwrite-deleteDocument*](https://appwrite.io/docs/references/cloud/client-web/databases#deleteDocument)
   - [*forwardRef](https://react.dev/reference/react/forwardRef)
   - [*useId* ](https://react.dev/reference/react/useId)
+  - [*controller*](https://www.react-hook-form.com/api/usecontroller/controller/)
 <!-- ![alt text](image.png) -->
 
 > In JavaScript, you cannot use an assignment (=) directly in an export default statement unless the variable (service) is already declared earlier in the file.
 
 > The children prop in React is a special prop that represents the content nested inside a component. 
-```
-The forwardRef function is a higher-order component that allows you to pass a ref from a parent component to a child component.
-This is useful when you want to access a DOM element or a class component instance directly from the parent component.
-```
-```txt
-The useId hook is a React hook that generates a unique ID for each instance of the component.
-This is useful for accessibility purposes, such as associating a label with an input element.
-```
+
+>The forwardRef function is a higher-order component that allows you to pass a ref from a parent component to a child component. This is useful when you want to access a DOM element or a class component instance directly from the parent component.
+
+
+> The useId hook is a React hook that generates a unique ID for each instance of the component. This is useful for accessibility purposes, such as associating a label with an input element.
