@@ -4,7 +4,7 @@ const conf = {
     appwriteDatabaseId: String(import.meta.env.VITE_APPWRITE_DATABASE_ID), // blog
     appwriteCollectionId: String(import.meta.env.VITE_APPWRITE_COLLECTION_ID), // article
     appwriteBucketId: String(import.meta.env.VITE_APPWRITE_BUCKET_ID),  // images
-
+    TINY_API_KEY: String(import.meta.env.VITE_TINY_API_KEY), // Tiny API key
 };
 
 export default conf;
